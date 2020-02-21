@@ -1,0 +1,34 @@
+body{
+    background-color: lightyellow;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    color: rgb(163, 6, 202);
+    font-weight: bold ;
+    font-size: 40px;
+}
+h2{
+    color:rgb(245, 142, 182) ;
+}
+h3{
+    color: rgb(233, 141, 125);
+}
+img{
+    width: 40%;
+}
+div{
+    text-align: center;  
+}
+div img{
+    border: 3px solid rgb(145, 10, 199) ;
+}
+hr{
+    background-color: rgb(212, 176, 248);
+    height: 10px;
+    border: none;
+}
+h4{
+    text-decoration: underline;
+    color:rgb(226, 116, 13) ;
+}
