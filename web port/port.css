@@ -1,0 +1,240 @@
+body{
+    background-color:#cab2fd ;
+}
+.main{
+    text-align: center;
+}
+
+#head{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fce07d;
+    background-color: #886fbc;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#pictang{
+    width: 30%;
+    animation: moveball 2s linear infinite;
+    margin: auto;
+}
+@keyframes moveball{
+    0% { transform: rotate(0deg);}
+    30% {transform: rotate(20deg);}
+}
+h2{
+    color: #9818d6;
+    font-family: sans-serif;
+    font-style: normal;
+}
+ul{
+    margin-top: auto;
+    margin-right: 35%;
+    text-align: left;
+    margin-left: 35%;
+    padding-left: 10%;
+    font-family: sans-serif;
+}
+h4{
+    margin-bottom: 0px;
+    text-align: center;
+    margin-right: 40%;
+    margin-left: 40%;
+    font-family: sans-serif;
+    
+}
+#hobbie{
+    border: 5px solid #fc9d9d;
+    background-color: #fc9d9d;
+    border-radius: 50px; 
+}
+#hobbie1{
+    border: 5px solid #fc9d9d;
+    background-color: #fc9d9d;
+    border-radius: 50px; 
+    border-bottom:3px solid #d42828;
+}
+#skill{
+    border: 5px solid #baf1a1;
+    background-color: #baf1a1;
+    border-radius: 50px;
+}
+#skill1{
+    border: 5px solid #baf1a1;
+    background-color: #baf1a1;
+    border-radius: 50px;
+    border-bottom:3px solid #4bdd08;
+}
+#interest{
+    border: 5px solid #fdd365;
+    background-color: #fdd365;
+    border-radius: 50px;
+}
+#interest1{
+    border: 5px solid #fdd365;
+    background-color: #fdd365;
+    border-radius: 50px;
+    border-bottom:3px solid #f1af06;
+}
+#project{
+    border: 5px solid #9be3de;
+    background-color: #9be3de;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-right: 35%;
+    text-align: left;
+    margin-left: 35%;
+    padding-left: 10%;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+#project1{
+    border: 5px solid #9be3de;
+    background-color: #9be3de;
+    border-radius: 50px;
+    border-bottom:3px solid #16cabe;
+}
+.contact{
+    font-family: sans-serif;
+    color: #9818d6;
+    text-align: center;
+}
+.back2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9818d6;
+    margin-left: 45%;
+    margin-right: 45%;
+	border-radius: 50px;
+	font-size: 22px;
+	padding: 8px 8px 8px 8px;
+}
+.back{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #cab2fd;
+    margin-left: 42%;
+    margin-right: 5%;
+	border-radius: 50px;
+	font-size: 22px;
+	padding: 8px 8px 8px 8px;
+}
+.home{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #cab2fd;
+	border-radius: 50px;
+	font-size: 22px;
+	padding: 8px 8px 8px 8px;
+}
+
+p a {
+	color: #f7ea3a;
+}
+.bodypj{
+    background-color: lightyellow;
+}
+.head{
+    text-align: center;
+    font-family: monospace;
+    
+}
+.icon1{
+    border-radius: 1000px;
+    border: 0px;
+    width: 20%;
+}
+
+.head1{
+    color: tomato;
+    border: none;
+    font-size: 50px;
+    background-color: wheat;
+    border-radius: 300px;
+    margin-top: 10px;
+}
+.head2{
+    text-align: left;
+    font-size: 36px;
+    margin-left: 30px;
+    margin-bottom: auto;
+    color: rgb(255, 220, 65);
+}
+.hr1{
+    background-color: wheat;
+    height: 3px;
+}
+p{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 22px;
+}
+.pic1{
+    border: none;
+    border-radius: 60px;
+}
+#sleepy{
+    text-align: left;
+    margin-left: 70px;
+    width: 20%;
+}
+.head3{
+    color: rgb(255, 166, 65);
+    font-size: 36px;
+    text-decoration: underline;
+}
+.model_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.model_flex img{
+    width: 100%;
+}
+.model_flex > div{
+    border: 5px solid wheat;
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.setting{
+    text-align: center;
+    font-size: 15px;
+}
+.game{
+    text-decoration: underline wheat;
+    font-family: monospace;
+    color: rgb(216, 142, 5);
+    margin-left: 70px;
+    font-size: 22px;
+}
+.game2{
+    font-size: 18px;
+    
+}
+.game3{
+    margin-left: 70px;
+    text-decoration: underline wheat;
+    color: rgb(216, 142, 5);
+}
+.example{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.example img{
+    width: 100%;
+}
+.example > div{
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.last{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+}
